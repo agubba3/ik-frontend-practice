@@ -1,8 +1,7 @@
 function x() {
-  for (var i = 0; i < 5; i++) { // can change to let
-    // const temp = i;
+  for (let i = 0; i < 5; i++) { // try using var here instead. The code will behave as intended.
     setTimeout(function() {
-      console.log(temp);
+      console.log(i);
     }, i * 1000);
   }
 
