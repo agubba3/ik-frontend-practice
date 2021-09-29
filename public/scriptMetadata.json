@@ -1,0 +1,72 @@
+{
+  "variables-hoisting.js": {
+    "desc": "Variable delcarations are hoisted, initializations are not.",
+    "concept": "Hoisting"
+  },
+  "functions-hoisting.js": {
+    "desc": "Function delcarations are hoisted, expressions are not.",
+    "concept": "Hoisting"
+  },
+  "constructor-functions-this.js": {
+    "desc": "When this keyword is used in a constructor function, this refers to the object when the object is created.",
+    "concept": "Functions"
+  },
+  "bind-apply-call.js": {
+    "desc": "Running a function within a certain context using bind, apply, call",
+    "concept": "Functions"
+  },
+  "this-variations.js": {
+    "desc": "4 ways this changes in JS functions",
+    "concept": "Functions"
+  },
+  "proto.js": {
+    "desc": "Prototypes are ways JS supports inheritance",
+    "concept": "Inheritance"
+  },
+  "closures.js": {
+    "desc": "A Closure is a function AND the scope of the parent where the function was defined.",
+    "concept": "Closures"
+  },
+  "arrow-functions.js": {
+    "desc": "...",
+    "concept": "Arrow Functions"
+  },
+  "scope.js": {
+    "desc": "Scope is all about name resolution - the visibility of variables to parts of code.",
+    "concept": "Scope"
+  },
+  "function-this-basic.js": {
+    "desc": "this is bound to the caller scope",
+    "concept": "Functions"
+  },
+  "scroll.js": {
+    "concept": "PRACTICE"
+  },
+  "3-args.js": {
+    "concept": "PRACTICE"
+  },
+  "simple-currying.js": {
+    "desc": "Currying allows us to generate partial functions that are reusable",
+    "concept": "Currying"
+  },
+  "sum-currying.js": {
+    "desc": "Currying a variable number of arguments",
+    "concept": "Currying"
+  },
+  "currying.js": {
+    "desc": "Currying implementation",
+    "concept": "Currying"
+  },
+  "promisify.js": {
+    "desc": "Turn a callback function to a promise-based one",
+    "concept": "Async"
+  },
+  "timeout-closure.js": {
+    "desc": "Lexical environment of closures references by memory",
+    "concept": "Closures"
+  },
+  "debounce.js": {
+    "concept": "PRACTICE"
+  }
+}
+

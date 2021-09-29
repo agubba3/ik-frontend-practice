@@ -1,0 +1,15 @@
+.code-viewer {
+  padding: 20px !important;
+}
+
+.code-viewer-buttons {
+  margin-right: 20px;
+  margin-top: 20px;
+  float: right;
+}
+
+.concept-selector {
+  width: 20% !important;
+  float: right;
+  margin: 20px;
+}
