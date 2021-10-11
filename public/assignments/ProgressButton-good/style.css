@@ -1,0 +1,26 @@
+.bar {
+	height: 50px;
+	border-radius: 10px;
+	background-color: #97CBF6;
+	position: absolute;
+	text-align: center;
+}
+
+.text {
+	position: relative;
+	z-index: 2;
+}
+
+#friendly-text {
+	top: 15px;
+}
+
+#loader-back {
+	width: 400px;
+}
+
+#loader {
+	background-color: #69B4F1;
+	width: 0px;
+	transition: width 0.3s;
+}

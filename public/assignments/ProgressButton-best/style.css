@@ -1,0 +1,26 @@
+.button {
+  background-color: rgb(135, 206, 250);
+  color: white;
+  padding: 15px 26px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  max-width: 200px;
+  position: relative;
+}
+
+.btn-load {
+  background-color: rgb(76, 182, 247);
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.3s;
+}
+
+.btn-text {
+  position: relative;
+}
