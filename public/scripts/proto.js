@@ -22,7 +22,11 @@ console.log(grizzly, polar);
 grizzly.growl();
 polar.growl();
 
-// function Grizzly() {
 
-// }
-// Grizzly.prototype = Object.create(Bear.prototype);
+// Using the prototype chain
+function Grizzly() {
+  Bear.call(this, 'grizzly');
+}
+Grizzly.prototype = Object.create(Bear.prototype);
+
+grizzly = new Grizzly();

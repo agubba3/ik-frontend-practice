@@ -67,6 +67,12 @@
   },
   "debounce.js": {
     "concept": "PRACTICE"
+  },
+  "memoize-async.js": {
+    "concept": "Async"
+  },
+  "debounce-forward.js": {
+    "concept": "PRACTICE"
   }
 }
 
